@@ -2,20 +2,17 @@ import "./Login.css"
 function Login() {
     return (
         <div>
-            <div className="background">
-                <div className="shape"></div>
-                <div className="shape"></div>
-            </div>
-            <form action="/mainpage" method="get">
-                <h3>Login Here</h3>
+            <div className="circulo uno"></div>
+            <div className="circulo dos"></div>
+            
+            <form action="#" method="get">
+                <h3>Inicia Sesion</h3>
 
-                <label for="username">Username</label>
-                <input type="text" placeholder="Email or Phone" id="username" />
-
-                <label for="password">Password</label>
-                <input type="password" placeholder="Password" id="password" />
-
-                <button>Log In</button>
+                <label htmlFor="usuario">Usuario</label>
+                <input type="text" placeholder="Ingrese el usuario" id="usuario" />
+                <label htmlFor="contraseña">Contraseña</label>
+                <input type="password" placeholder="Ingrese la contraseña" id="contraseña" />
+                <input type="submit" value="Iniciar Sesion" />
             </form>
         </div>
     )
