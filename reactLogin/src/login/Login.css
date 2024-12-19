@@ -5,10 +5,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: rgb(34, 28, 28);
-}
 
+body{
+    background-color: rgb(133, 129, 123);
+}
 .circulo{
     width: 200px;
     height: 200px;
@@ -53,14 +53,14 @@ body{
 form{
     height: 520px;
     width: 400px;
-    background-color: rgba(255,255,255,0.13);
+    background-color: rgba(202, 194, 194, 0.13);
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
     border-radius: 10px;
     backdrop-filter: blur(10px);
-    border: 2px solid rgba(255,255,255,0.1);
+    border: 2px solid rgba(102, 86, 86, 0.1);
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
     
     
@@ -70,10 +70,55 @@ form *{
     letter-spacing: 1px;
     font-family: 'Poppins', sans-serif;
     border: none;
+    display: block;
 }
-
 
 form h3{
     text-align: center;
-    padding-top: 30px
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    padding-left: -50px;
+    transform: translatey(30px);
 }
+
+.form{
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    transform: translatey(20px);
+}
+
+.form label{
+    font-weight: 300px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+
+.form input{
+    width: 280px;
+    height: 35px;
+    text-align: left;
+    padding-left: 10px;
+    border-radius: 8px;
+    background-color: rgb(41, 36, 36);
+    color: white;
+}
+
+#submit {
+    
+    width: auto;
+    padding: 0px 40px;
+    justify-content: center;
+    margin-left: 17%;
+    margin-top: 20%;
+    color: white;
+    
+}
+
+

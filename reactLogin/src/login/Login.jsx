@@ -1,5 +1,5 @@
 import "./Login.css"
-function Login() {
+function Login(){
     return (
         <div>
             <div className="circulo uno"></div>
@@ -8,11 +8,13 @@ function Login() {
             <form action="#" method="get">
                 <h3>Inicia Sesion</h3>
 
-                <label htmlFor="usuario">Usuario</label>
-                <input type="text" placeholder="Ingrese el usuario" id="usuario" />
-                <label htmlFor="contraseña">Contraseña</label>
-                <input type="password" placeholder="Ingrese la contraseña" id="contraseña" />
-                <input type="submit" value="Iniciar Sesion" />
+                <div className="form">
+                    <label htmlFor="usuario">Usuario</label>
+                    <input type="text" placeholder="Ingrese el usuario" id="usuario" />
+                    <label htmlFor="contraseña">Contraseña</label>
+                    <input type="password" placeholder="Ingrese la contraseña" id="contraseña" />
+                    <input type="submit" value="Iniciar Sesion" id="submit" />
+                </div>
             </form>
         </div>
     )

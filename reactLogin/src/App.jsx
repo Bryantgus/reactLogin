@@ -1,11 +1,12 @@
-import { useState } from 'react'
 import './App.css'
 import Login from './login/Login';
-
+import MainPage from './mainPage/MainPage';
 function App() {
 
   return (
-    <Login />
+    <div>
+      <MainPage role="Admin"/>
+    </div>
   )
 }
 
